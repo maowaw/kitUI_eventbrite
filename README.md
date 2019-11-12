@@ -13,6 +13,7 @@ Puis, sur ton navigateur web, lance :
 
 De là, tu verras un bouton pour chaque page à visiter : 
 
+		-Le kit UI complet
 		-La barre de navigation
 		-3 formulaires (Sign up, Log in, Reset Password)
 		-Le footer

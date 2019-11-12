@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/banner', to: 'static_pages#banner'
   get '/cards', to: 'static_pages#cards'
   get '/comments', to: 'static_pages#comments'
+  get '/kitui', to: 'static_pages#kitui'
 
   post '/', to: 'static_pages#index'
   post '/navbar', to: 'static_pages#navbar'
@@ -19,6 +20,7 @@ Rails.application.routes.draw do
   post '/banner', to: 'static_pages#banner'
   post '/cards', to: 'static_pages#cards'
   post '/comments', to: 'static_pages#comments'
+  post '/kitui', to: 'static_pages#kitui'
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
